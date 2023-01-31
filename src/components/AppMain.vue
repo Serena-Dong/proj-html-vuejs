@@ -15,7 +15,9 @@ export default {
 </script>
 
 <template>
-
+    <jumbotron></jumbotron>
+    <section></section>
+    <partnerships></partnerships>
 </template>
 
 <style lang="scss" scoped>
