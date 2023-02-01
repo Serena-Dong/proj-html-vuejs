@@ -55,7 +55,6 @@ export default {
 
 .container {
     height: 100px;
-    border: 2px solid black;
 
     display: flex;
     justify-content: space-between;

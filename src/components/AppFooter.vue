@@ -82,12 +82,9 @@ a {
 
 .container {
     height: 600px;
-    border: 2px solid black;
 
     .footer-top {
         height: 400px;
-        border: 2px solid black;
-
         padding-top: 7rem;
 
         .row {
@@ -106,7 +103,6 @@ a {
     }
 
     .footer-bottom {
-        border: 2px solid black;
 
         .credits {
             height: 200px;
