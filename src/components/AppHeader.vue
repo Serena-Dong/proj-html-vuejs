@@ -1,6 +1,23 @@
 <script>
+import { headerData } from '../data/data';
+
+import btn from './contents/button.vue'
+
 export default {
-    name: 'AppHeader'
+    name: 'AppHeader',
+    data() {
+        return {
+            headerData,
+            text: 'Free Quote'
+        }
+    },
+    components: { btn },
+    computed: {
+        logoSrc() {
+            const url = new URL(headerData.logo, import.meta.url);
+            return url.href
+        }
+    }
 }
 </script>
 
@@ -10,21 +27,58 @@ export default {
 
             <!-- LOGO -->
             <div class="logo">
+                <img :src=logoSrc alt="">
             </div>
-            <!-- NAV -->
-            <div class="nav"></div>
 
+            <!-- NAV -->
+            <div class="nav">
+                <ul v-for="link in headerData.navbar">
+                    <li><a href="">{{ link }}</a></li>
+                </ul>
+
+            </div>
+
+            <!-- CONTACTS -->
+            <div class="contacts">
+                <!-- PHONE NUMBER -->
+                <a href="">{{ headerData.phoneNumber }}</a>
+
+                <!-- BUTTON -->
+                <btn :text="text"></btn>
+            </div>
         </div>
     </header>
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/css/scss/partials/_variables' as *;
+
 .container {
     height: 100px;
     border: 2px solid black;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.contacts>* {
+    margin-left: 2rem;
+}
+
+a {
+    color: black;
+
+    &:hover {
+        color: $orange;
+
+        padding: 2.5rem 0 2.5rem;
+        border-bottom: 2px solid $orange;
+    }
 }
 </style>
