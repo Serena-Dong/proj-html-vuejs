@@ -19,7 +19,6 @@ export default {
                     <h3>Grow Your Online Business Strategically, and Improve Customer Retention</h3>
                     <!-- SOCIALS -->
                     <div class="socials">
-
                         <ul>
                             <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
@@ -30,18 +29,24 @@ export default {
                         </ul>
                     </div>
                 </div>
+
+                <!-- SERVICES -->
                 <div class="services">
                     <h4>Services</h4>
                     <ul v-for="link in footerData.services">
                         <li><a href="">{{ link }}</a></li>
                     </ul>
                 </div>
+
+                <!-- RESOURCES -->
                 <div class="resources">
                     <h4>Resources</h4>
                     <ul v-for="link in footerData.services">
                         <li><a href="">{{ link }}</a></li>
                     </ul>
                 </div>
+
+                <!-- COMPANY -->
                 <div class="company">
                     <h4>Company</h4>
                     <ul v-for="link in footerData.services">
