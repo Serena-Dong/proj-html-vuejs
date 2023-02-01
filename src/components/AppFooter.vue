@@ -57,8 +57,8 @@ export default {
         </div>
         <div class="footer-bottom">
             <div class="credits">
-                <ul>
-                    <li><a href=""></a></li>
+                <ul v-for="link in footerData.credits">
+                    <li>{{ link }}</li>
                 </ul>
             </div>
         </div>
@@ -88,7 +88,7 @@ a {
         height: 400px;
         border: 2px solid black;
 
-        padding-top: 5rem;
+        padding-top: 7rem;
 
         .row {
             display: flex;
@@ -106,9 +106,14 @@ a {
     }
 
     .footer-bottom {
-        height: 200px;
         border: 2px solid black;
-        display: flex
+
+        .credits {
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
 }
 </style>
