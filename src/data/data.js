@@ -12,5 +12,5 @@ const footerData = {
     credits: ['2020 Avada Consultant Powered by WordPress', 'Call Us (555) 802 1234', 'info@yourcompany.com']
 }
 
-export { headerData }
+export { headerData, footerData }
 

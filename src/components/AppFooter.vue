@@ -1,17 +1,80 @@
 <script>
+import { footerData } from '../data/data';
 export default {
-    name: 'AppFooter'
+    name: 'AppFooter',
+    data() {
+        return {
+            footerData
+        }
+    }
 }
 </script>
 
 <template>
     <div class="container">
-        <div class="footer-top"></div>
-        <div class="footer-bottom"></div>
+        <div class="footer-top">
+            <div class="row">
+                <div class="col">
+                    <!-- TEXT -->
+                    <h3>Grow Your Online Business Strategically, and Improve Customer Retention</h3>
+                    <!-- SOCIALS -->
+                    <div class="socials">
+
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services">
+                    <h4>Services</h4>
+                    <ul v-for="link in footerData.services">
+                        <li><a href="">{{ link }}</a></li>
+                    </ul>
+                </div>
+                <div class="resources">
+                    <h4>Resources</h4>
+                    <ul v-for="link in footerData.services">
+                        <li><a href="">{{ link }}</a></li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <h4>Company</h4>
+                    <ul v-for="link in footerData.services">
+                        <li><a href="">{{ link }}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="credits">
+                <ul>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
+h3,
+h4 {
+    margin-left: 1rem;
+}
+
+a {
+    color: black;
+
+    &:hover {
+        color: black;
+        border-bottom: 2px solid black;
+    }
+}
+
 .container {
     height: 600px;
     border: 2px solid black;
@@ -19,7 +82,22 @@ export default {
     .footer-top {
         height: 400px;
         border: 2px solid black;
-        display: flex
+
+        padding-top: 5rem;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+
+            .col {
+                width: 300px;
+
+                .socials ul {
+                    display: flex;
+
+                }
+            }
+        }
     }
 
     .footer-bottom {
