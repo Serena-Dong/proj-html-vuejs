@@ -19,12 +19,13 @@ export default {
     .footer-top {
         height: 400px;
         border: 2px solid black;
-
+        display: flex
     }
 
     .footer-bottom {
         height: 200px;
         border: 2px solid black;
+        display: flex
     }
 }
 </style>
