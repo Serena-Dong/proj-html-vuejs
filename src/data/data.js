@@ -22,7 +22,7 @@ const mainData = {
         ]
     },
     partnerships: {
-
+        img: ['']
     }
 }
 
