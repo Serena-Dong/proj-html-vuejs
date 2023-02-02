@@ -1,5 +1,5 @@
 const headerData = {
-    logo: '../assets/img/avada-marketing-logo.png',
+    logo: '../assets/img/logo/avada-marketing-logo.png',
     navbar: ['Home', 'Services', 'Why Us', 'Case Studies', 'About', 'Blog']
 }
 

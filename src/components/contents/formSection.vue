@@ -17,7 +17,7 @@ export default {
     <div class="form-box">
         <div class="profile">
             <div id="profile-pic">
-                <img src="../../assets/img/marketing-consultant-expert.jpg" alt="">
+                <img src="../../assets/img/contacts/marketing-consultant-expert.jpg" alt="">
             </div>
             <p id="name">Richard Madsen</p>
             <p id="role">Marketing Consultat Expert</p>

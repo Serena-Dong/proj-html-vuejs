@@ -1,13 +1,13 @@
 <script>
 import jumbotron from './contents/jumbotron.vue'
-import section from './contents/section.vue'
+import card from './contents/card.vue'
 import partnerships from './contents/partnerships.vue'
 
 
 export default {
     name: 'AppMain',
     components: {
-        jumbotron, section, partnerships
+        jumbotron, card, partnerships
     }
 
 }
@@ -15,7 +15,9 @@ export default {
 
 <template>
     <jumbotron></jumbotron>
-    <section></section>
+    <card></card>
+    <card></card>
+    <card></card>
     <partnerships></partnerships>
 </template>
 
