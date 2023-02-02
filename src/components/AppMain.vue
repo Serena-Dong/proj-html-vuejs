@@ -1,13 +1,13 @@
 <script>
 import jumbotron from './contents/jumbotron.vue'
 import card from './contents/card.vue'
-import partnerships from './contents/partnerships.vue'
+import brands from './contents/brands.vue'
 
 
 export default {
     name: 'AppMain',
     components: {
-        jumbotron, card, partnerships
+        jumbotron, card, brands
     }
 
 }
@@ -16,7 +16,7 @@ export default {
 <template>
     <jumbotron></jumbotron>
     <card></card>
-    <partnerships></partnerships>
+    <brands></brands>
 </template>
 
 <style lang="scss" scoped>
