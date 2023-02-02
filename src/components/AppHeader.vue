@@ -41,7 +41,7 @@ export default {
             <!-- CONTACTS -->
             <div class="contacts">
                 <!-- PHONE NUMBER -->
-                <a href="">{{ headerData.phoneNumber }}</a>
+                <a href=""><i class="fa-solid fa-phone"></i>{{ headerData.phoneNumber }}</a>
 
                 <!-- BUTTON -->
                 <btn :text="text"></btn>
@@ -79,5 +79,11 @@ a {
         padding: 2.5rem 0 2.5rem;
         border-bottom: 2px solid $ochre;
     }
+}
+
+.fa-phone {
+    color: $ochre;
+
+    margin-right: 1rem;
 }
 </style>
