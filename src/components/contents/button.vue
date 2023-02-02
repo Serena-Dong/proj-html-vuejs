@@ -23,7 +23,7 @@ export default {
     }
 
     &:hover {
-        background-color: $ochre;
+        background-color: #ffba31;
 
     }
 }

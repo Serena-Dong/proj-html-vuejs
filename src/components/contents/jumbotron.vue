@@ -63,7 +63,8 @@ export default {
             }
 
             &:hover {
-                background-color: $black;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid $white;
 
                 a {
                     color: $white;
