@@ -78,4 +78,8 @@ a {
         border-bottom: 2px solid $ochre;
     }
 }
+
+button a {
+    color: $ochre;
+}
 </style>
