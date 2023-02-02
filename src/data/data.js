@@ -21,7 +21,7 @@ const mainData = {
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti, dolorum assumenda omnis ab nobis aliquam!'
         ]
     },
-    partnerships: {
+    brands: {
         img: ['']
     }
 }
