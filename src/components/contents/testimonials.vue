@@ -76,7 +76,7 @@ p {
 
 
 .container {
-    height: 1000px;
+    height: 900px;
 
     .title {
         text-align: center;
@@ -86,7 +86,7 @@ p {
     .row {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
 
         .testimonial {
             width: 350px;

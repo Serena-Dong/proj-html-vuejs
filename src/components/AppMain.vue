@@ -35,6 +35,6 @@ export default {
 
 <style lang="scss" scoped>
 main>* {
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
 }
 </style>
