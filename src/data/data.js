@@ -31,6 +31,27 @@ const mainData = {
             'http://localhost:5173/src/assets/img/brands/spaces.png'
         ]
     },
+    testimonials: [
+        {
+            img: 'http://localhost:5173/src/assets/img/testimonials/case-studies-1.jpg',
+            text: 'How Spaces attracted five million visitors by improving the content',
+            point: '200%',
+            detail: 'Higher revenue from digital'
+        },
+        {
+            img: 'http://localhost:5173/src/assets/img/testimonials/case-studies-4.jpg',
+            text: 'Creativity helped Hemisfero to increase their brand reach vertically',
+            point: '10x',
+            detail: 'Sales increase with the same ad spend'
+        },
+        {
+            img: 'http://localhost:5173/src/assets/img/testimonials/case-studies-6.jpg',
+            text: 'How DigitalBox used AI-powered data inisght to boost sales',
+            point: '3-year',
+            detail: 'Partnership with Avada Consultant'
+        },
+
+    ],
     awards:
         [
             {

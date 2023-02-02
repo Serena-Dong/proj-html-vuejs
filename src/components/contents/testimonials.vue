@@ -1,10 +1,13 @@
 <script>
-import btn from './button.vue'
+import { mainData } from '../../data/data';
+
+import btn from './button.vue';
 export default {
     name: 'testimonials',
     components: { btn },
     data() {
         return {
+            mainData,
             text: 'Read More Case Studies'
         }
     }
@@ -18,39 +21,15 @@ export default {
                 <h1>Trusted By Leading Organisation</h1>
             </div>
             <div class="row">
-                <div class="testimonial">
+                <div v-for="testimonial in mainData.testimonials" class="testimonial">
                     <div class="profile-pic">
-                        <img src="../../assets/img/testimonials/case-studies-1.jpg" alt="">
+                        <img :src="testimonial.img" alt="">
                     </div>
                     <div class="profile-text">
-                        <p>How Spaces attracted five million visitors by improving the content</p>
+                        <p>{{ testimonial.text }}</p>
 
-                        <h1>200%</h1>
-                        <span>Higher revenue from digital</span>
-
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="profile-pic">
-                        <img src="../../assets/img/testimonials/case-studies-4.jpg" alt="">
-                    </div>
-                    <div class="profile-text">
-                        <p>Creativity helped Hemisfero to increase their brand reach vertically</p>
-
-                        <h1>10x</h1>
-                        <span>Sales increase with the same ad spend</span>
-
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="profile-pic">
-                        <img src="../../assets/img/testimonials/case-studies-6.jpg" alt="">
-                    </div>
-                    <div class="profile-text">
-                        <p>How DigitalBox used AI-powered data inisght to boost sales</p>
-
-                        <h1>3-year</h1>
-                        <span>Partnership with Avada Consultant</span>
+                        <h1>{{ testimonial.point }}</h1>
+                        <span>{{ testimonial.detail }}</span>
 
                     </div>
                 </div>
