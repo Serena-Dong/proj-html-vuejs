@@ -6,6 +6,11 @@ export default {
 
 <template>
     <div class="form-box">
+        <div class="profile">
+            <div class="profile-pic">
+                <img src="" alt="">
+            </div>
+        </div>
     </div>
 </template>
 

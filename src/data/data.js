@@ -1,7 +1,6 @@
 const headerData = {
     logo: '../assets/img/avada-marketing-logo.png',
-    navbar: ['Home', 'Services', 'Why Us', 'Case Studies', 'About', 'Blog'],
-    phoneNumber: '(555) 802-1234'
+    navbar: ['Home', 'Services', 'Why Us', 'Case Studies', 'About', 'Blog']
 }
 
 const footerData = {
@@ -12,5 +11,8 @@ const footerData = {
     credits: ['2020 Avada Consultant Powered by WordPress', 'Call Us (555) 802 1234', 'info@yourcompany.com']
 }
 
-export { headerData, footerData }
+const generalData = {
+    phoneNumber: '(555) 802-1234'
+}
+export { headerData, footerData, generalData }
 
