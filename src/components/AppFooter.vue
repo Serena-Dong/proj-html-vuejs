@@ -41,7 +41,7 @@ export default {
                 <!-- RESOURCES -->
                 <div class="resources">
                     <h4>Resources</h4>
-                    <ul v-for="link in footerData.services">
+                    <ul v-for="link in footerData.resources">
                         <li><a href="">{{ link }}</a></li>
                     </ul>
                 </div>
@@ -49,7 +49,7 @@ export default {
                 <!-- COMPANY -->
                 <div class="company">
                     <h4>Company</h4>
-                    <ul v-for="link in footerData.services">
+                    <ul v-for="link in footerData.company">
                         <li><a href="">{{ link }}</a></li>
                     </ul>
                 </div>
