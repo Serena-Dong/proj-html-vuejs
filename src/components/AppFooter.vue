@@ -11,58 +11,60 @@ export default {
 </script>
 
 <template>
-    <div class="container">
-        <div class="footer-top">
-            <div class="row">
-                <div class="col">
-                    <!-- TEXT -->
-                    <p>Grow Your Online Business Strategically, and Improve Customer Retention.</p>
-                    <!-- SOCIALS -->
-                    <div class="socials">
-                        <ul>
-                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col">
+                        <!-- TEXT -->
+                        <p>Grow Your Online Business Strategically, and Improve Customer Retention.</p>
+                        <!-- SOCIALS -->
+                        <div class="socials">
+                            <ul>
+                                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- SERVICES -->
+                    <div class="services">
+                        <h4>Services</h4>
+                        <ul v-for="link in footerData.services">
+                            <li><a href="">{{ link }}</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- RESOURCES -->
+                    <div class="resources">
+                        <h4>Resources</h4>
+                        <ul v-for="link in footerData.resources">
+                            <li><a href="">{{ link }}</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- COMPANY -->
+                    <div class="company">
+                        <h4>Company</h4>
+                        <ul v-for="link in footerData.company">
+                            <li><a href="">{{ link }}</a></li>
                         </ul>
                     </div>
                 </div>
-
-                <!-- SERVICES -->
-                <div class="services">
-                    <h4>Services</h4>
-                    <ul v-for="link in footerData.services">
-                        <li><a href="">{{ link }}</a></li>
-                    </ul>
-                </div>
-
-                <!-- RESOURCES -->
-                <div class="resources">
-                    <h4>Resources</h4>
-                    <ul v-for="link in footerData.resources">
-                        <li><a href="">{{ link }}</a></li>
-                    </ul>
-                </div>
-
-                <!-- COMPANY -->
-                <div class="company">
-                    <h4>Company</h4>
-                    <ul v-for="link in footerData.company">
-                        <li><a href="">{{ link }}</a></li>
+            </div>
+            <div class="footer-bottom">
+                <div class="credits">
+                    <ul v-for="link in footerData.credits">
+                        <li>{{ link }}</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="credits">
-                <ul v-for="link in footerData.credits">
-                    <li>{{ link }}</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    </footer>
 </template>
 
 <style lang="scss" scoped>
