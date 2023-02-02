@@ -2,8 +2,6 @@
 import { headerData } from '../data/data';
 import { generalData } from '../data/data';
 
-import btn from './contents/button.vue'
-
 export default {
     name: 'AppHeader',
     data() {
@@ -12,7 +10,6 @@ export default {
             generalData
         }
     },
-    components: { btn },
     computed: {
         logoSrc() {
             const url = new URL(headerData.logo, import.meta.url);
@@ -52,7 +49,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/css/scss/partials/_variables' as *;
+@use '../assets/scss/partials/_variables' as *;
 
 .container {
     height: 100px;
@@ -79,30 +76,6 @@ a {
 
         padding: 2.5rem 0 2.5rem;
         border-bottom: 2px solid $ochre;
-    }
-}
-
-.fa-phone {
-    color: $ochre;
-
-    margin-right: 1rem;
-}
-
-.transparent {
-    background-color: rgba(255, 136, 0, 0.313);
-    border: rgba(255, 136, 0, 0.313);
-
-    a {
-        color: $ochre;
-    }
-
-    &:hover {
-        background-color: $ochre;
-
-        a {
-            color: $white;
-
-        }
     }
 }
 </style>

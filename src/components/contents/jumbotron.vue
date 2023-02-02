@@ -29,7 +29,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../../assets/css/scss/partials/_variables' as *;
+@use '../../assets/scss/partials/_variables' as *;
 
 .jumbotron {
     height: 500px;

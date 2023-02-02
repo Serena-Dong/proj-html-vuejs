@@ -21,18 +21,22 @@ export default {
 </script>
 
 <template>
-    <jumbotron></jumbotron>
-    <card></card>
-    <brands></brands>
-    <contactCard></contactCard>
-    <testimonials></testimonials>
-    <campaign></campaign>
-    <awards></awards>
-    <intern></intern>
-    <resources></resources>
-    <jumbotronB></jumbotronB>
+    <main>
+        <jumbotron></jumbotron>
+        <card></card>
+        <brands></brands>
+        <contactCard></contactCard>
+        <testimonials></testimonials>
+        <campaign></campaign>
+        <awards></awards>
+        <intern></intern>
+        <resources></resources>
+        <jumbotronB></jumbotronB>
+    </main>
 </template>
 
 <style lang="scss" scoped>
-
+main>* {
+    margin-bottom: 8rem;
+}
 </style>
