@@ -21,7 +21,7 @@ export default {
                     <img src="../../assets/img/card/img1.svg" alt="">
                 </div>
                 <div class="text-col">
-                    <h4>Business Growth</h4>
+                    <p>Business Growth</p>
                     <h1>Increase Brand Awareness</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt asperiores ut porro in eligendi
                         reiciendis, facilis repudiandae error voluptatem sequi ad!</p>
@@ -34,7 +34,7 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="text-col">
-                    <h4>Investors in People</h4>
+                    <p>Investors in People</p>
                     <h1>In-House Sales Training</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo nemo hic nihil praesentium!
                         Aliquid culpa consectetur esse cum molestiae fugiat reprehenderit atque dolores.</p>
@@ -53,7 +53,7 @@ export default {
                     <img src="../../assets/img/card/img3.svg" alt="">
                 </div>
                 <div class="text-col">
-                    <h4>Social Media Analysis</h4>
+                    <p>Social Media Analysis</p>
                     <h1>Harness Your Social Proof</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi dolores voluptate quas quaerat
                         ipsum adipisci neque ipsam beatae impedit nihil obcaecati iusto, qui quasi.</p>
