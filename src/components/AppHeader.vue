@@ -9,8 +9,7 @@ export default {
     data() {
         return {
             headerData,
-            generalData,
-            text: 'Free Quote'
+            generalData
         }
     },
     components: { btn },
@@ -46,7 +45,7 @@ export default {
                 <a href=""><i class="fa-solid fa-phone"></i>{{ generalData.phoneNumber }}</a>
 
                 <!-- BUTTON -->
-                <btn :text="text"></btn>
+                <button class="transparent"><a href="">Free Quote</a></button>
             </div>
         </div>
     </header>
@@ -87,5 +86,23 @@ a {
     color: $ochre;
 
     margin-right: 1rem;
+}
+
+.transparent {
+    background-color: rgba(255, 136, 0, 0.313);
+    border: rgba(255, 136, 0, 0.313);
+
+    a {
+        color: $ochre;
+    }
+
+    &:hover {
+        background-color: $ochre;
+
+        a {
+            color: $white;
+
+        }
+    }
 }
 </style>
