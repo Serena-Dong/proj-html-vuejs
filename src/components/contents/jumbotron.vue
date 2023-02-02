@@ -36,6 +36,7 @@ export default {
     background-image: url("../../assets/img/marketing-intro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 7rem;
 }
 
 .row {
