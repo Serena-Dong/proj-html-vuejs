@@ -14,7 +14,7 @@ import jumbotronB from './contents/jumbotronB.vue'
 export default {
     name: 'AppMain',
     components: {
-        jumbotron, card, brands, contactCard, testimonials, campaign, awards, intern, resources, jumbotronB
+        jumbotron, card, brands, contactCard, testimonials, campaign, intern, resources, jumbotronB
     }
 
 }
@@ -28,7 +28,6 @@ export default {
         <contactCard></contactCard>
         <testimonials></testimonials>
         <campaign></campaign>
-        <awards></awards>
         <intern></intern>
         <resources></resources>
         <jumbotronB></jumbotronB>
@@ -37,6 +36,6 @@ export default {
 
 <style lang="scss" scoped>
 main>* {
-    margin-bottom: 8rem;
+    margin-bottom: 7rem;
 }
 </style>
