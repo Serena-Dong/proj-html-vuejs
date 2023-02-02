@@ -30,7 +30,7 @@ const mainData = {
             'http://localhost:5173/src/assets/img/brands/next.png',
             'http://localhost:5173/src/assets/img/brands/spaces.png'
         ]
-    }
+    },
 }
 
 const footerData = {
