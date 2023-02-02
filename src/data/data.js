@@ -31,6 +31,38 @@ const mainData = {
             'http://localhost:5173/src/assets/img/brands/spaces.png'
         ]
     },
+    awards:
+        [
+            {
+                img: 'http://localhost:5173/src/assets/img/awards/award-a.png',
+                name: 'Winner Seo Master MAGT',
+                year: 'Smart Start Award 2007'
+            },
+            {
+                img: 'http://localhost:5173/src/assets/img/awards/award-b.png',
+                name: 'Top Social Media Agencies',
+                year: 'Next Partner 2018'
+            },
+            {
+                img: 'http://localhost:5173/src/assets/img/awards/award-c.png',
+                name: '10 Fastest Growing Abstract',
+                year: 'Solution Providers 2019'
+            },
+            {
+                img: 'http://localhost:5173/src/assets/img/awards/award-d.png',
+                name: 'National Excellence Agencie',
+                year: 'Award Winner 2020'
+            },
+        ],
+    intern: {
+        img: 'http://localhost:5173/src/assets/img/testimonials/large-testimonial.jpg',
+        text: 'The team at Avada Marketing Consultant is fabulous. They helped us unlock our potential online and offline. We have experienced year on year growth due to their progressive approch',
+        name: 'Kate Schadler',
+        role: 'Marketing Consultant - Abstract'
+    }
+
+
+
 }
 
 const footerData = {
