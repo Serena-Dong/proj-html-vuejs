@@ -59,7 +59,21 @@ const mainData = {
         text: 'The team at Avada Marketing Consultant is fabulous. They helped us unlock our potential online and offline. We have experienced year on year growth due to their progressive approch',
         name: 'Kate Schadler',
         role: 'Marketing Consultant - Abstract'
-    }
+    },
+    resources: [
+        {
+            img: 'http://localhost:5173/src/assets/img/b-roll/blog-posts-6.jpg',
+            text: 'Marketing Tips and Tricks For Your Website'
+        },
+        {
+            img: 'http://localhost:5173/src/assets/img/b-roll/blog-posts-5.jpg',
+            text: 'How to Write Stunning Blog Post Titles'
+        },
+        {
+            img: 'http://localhost:5173/src/assets/img/b-roll/blog-posts-4.jpg',
+            text: 'Techniques to Reduce Facebook Ads Spend'
+        }
+    ]
 
 
 
