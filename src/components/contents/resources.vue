@@ -43,7 +43,9 @@ section {
 }
 
 .container {
-    height: 700px;
+    height: 750px;
+
+
 }
 
 .row {

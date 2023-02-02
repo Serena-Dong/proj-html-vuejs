@@ -35,6 +35,8 @@ export default {
 
 .container {
     text-align: center;
+    margin-bottom: 6rem;
+
 
     .text {
         h1 {

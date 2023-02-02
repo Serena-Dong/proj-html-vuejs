@@ -77,6 +77,8 @@ p {
 
 .container {
     height: 900px;
+    margin-bottom: 5rem;
+
 
     .title {
         text-align: center;

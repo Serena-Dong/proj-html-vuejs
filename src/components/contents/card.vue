@@ -69,7 +69,7 @@ export default {
     height: 500px;
 
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 
     .row {
         display: flex;

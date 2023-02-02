@@ -34,7 +34,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-main>* {
-    margin-bottom: 6rem;
-}
+
 </style>
