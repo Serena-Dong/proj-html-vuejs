@@ -38,13 +38,11 @@ export default {
 
 .row {
     display: flex;
-    height: 400px;
+    height: 500px;
     align-items: center;
 
     .presentation {
         width: 600px;
-        border: 2px solid black;
-
         color: white;
         font-size: 1.5rem;
 
