@@ -6,7 +6,7 @@ export default {
     components: { btn },
     data() {
         return {
-            text: 'Get a Consultant'
+            text: 'Get a Consultantion'
         }
     }
 
