@@ -14,24 +14,19 @@ export default {
 <style lang="scss" scoped>
 @use '../../assets/css/scss/partials/_variables' as *;
 
-button {
-    padding: 1rem 2rem;
-    border-radius: 10px;
-}
-
 .transparent {
     background-color: rgba(255, 136, 0, 0.313);
     border: rgba(255, 136, 0, 0.313);
 
     a {
-        color: $orange;
+        color: $ochre;
     }
 
     &:hover {
-        background-color: $orange;
+        background-color: $ochre;
 
         a {
-            color: white;
+            color: $white;
 
         }
     }
