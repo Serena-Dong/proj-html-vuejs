@@ -1,10 +1,13 @@
 <script>
 import { generalData } from '../../data/data'
+import btn from './button.vue'
 export default {
     name: 'formSection',
+    components: { btn },
     data() {
         return {
-            generalData
+            generalData,
+            text: 'Get a Callback'
         }
     }
 }
@@ -20,7 +23,13 @@ export default {
             <p id="role">Marketing Consultat Expert</p>
             <p id="phone-number"><i class="fa-solid fa-phone"></i>{{ generalData.phoneNumber }}</p>
         </div>
-        .
+        <form action="submit">
+            <input placeholder="Your Name*" type="text">
+            <input placeholder="Your Email*" type="text">
+            <input placeholder="Your Phone Number*" type="text">
+            <btn :text="text"></btn>
+        </form>
+        <span>By submitting my data I agree to be contacted</span>
     </div>
 </template>
 
@@ -28,9 +37,11 @@ export default {
 @use '../../assets/css/scss/partials/_variables' as *;
 
 .form-box {
-    margin-top: 8rem;
+    text-align: center;
+
+    margin-top: 6rem;
     width: 400px;
-    height: 470px;
+    min-height: 520px;
 
     background-color: $white;
     border-radius: 10px;
@@ -38,8 +49,6 @@ export default {
 }
 
 .profile {
-    text-align: center;
-
     #profile-pic img {
         height: 70px;
         border-radius: 5rem;
@@ -61,5 +70,23 @@ export default {
 
 .profile>* {
     margin: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form>* {
+    margin: 0.5rem 1.5rem 0.5rem;
+    padding: 1rem;
+
+    border-radius: 1rem;
+    border: 1px solid $grey;
+}
+
+span {
+    color: $grey;
+    font-size: 0.7rem;
 }
 </style>

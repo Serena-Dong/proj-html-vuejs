@@ -8,27 +8,23 @@ export default {
 </script>
 
 <template>
-    <button class="transparent"><a href="">{{ text }}</a></button>
+    <button class="ochre"><a href="">{{ text }}</a></button>
 </template>
 
 <style lang="scss" scoped>
 @use '../../assets/css/scss/partials/_variables' as *;
 
-.transparent {
-    background-color: rgba(255, 136, 0, 0.313);
-    border: rgba(255, 136, 0, 0.313);
+.ochre {
+    background-color: $ochre;
+    border: $ochre;
 
     a {
-        color: $ochre;
+        color: $white;
     }
 
     &:hover {
         background-color: $ochre;
 
-        a {
-            color: $white;
-
-        }
     }
 }
 </style>

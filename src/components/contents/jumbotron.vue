@@ -44,9 +44,10 @@ export default {
     align-items: center;
 
     .presentation {
-        width: 600px;
+        width: 550px;
         color: white;
         font-size: 1.5rem;
+        margin-right: 5rem;
 
         .white {
             background-color: $white;
