@@ -1,5 +1,6 @@
 <script>
 import { headerData } from '../data/data';
+import { generalData } from '../data/data';
 
 import btn from './contents/button.vue'
 
@@ -8,6 +9,7 @@ export default {
     data() {
         return {
             headerData,
+            generalData,
             text: 'Free Quote'
         }
     },
@@ -41,7 +43,7 @@ export default {
             <!-- CONTACTS -->
             <div class="contacts">
                 <!-- PHONE NUMBER -->
-                <a href=""><i class="fa-solid fa-phone"></i>{{ headerData.phoneNumber }}</a>
+                <a href=""><i class="fa-solid fa-phone"></i>{{ generalData.phoneNumber }}</a>
 
                 <!-- BUTTON -->
                 <btn :text="text"></btn>
