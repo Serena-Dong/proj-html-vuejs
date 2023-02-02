@@ -20,6 +20,9 @@ const mainData = {
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores excepturi obcaecati qui dignissimos?',
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti, dolorum assumenda omnis ab nobis aliquam!'
         ]
+    },
+    partnerships: {
+
     }
 }
 
