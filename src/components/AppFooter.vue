@@ -16,7 +16,7 @@ export default {
             <div class="row">
                 <div class="col">
                     <!-- TEXT -->
-                    <h3>Grow Your Online Business Strategically, and Improve Customer Retention</h3>
+                    <p>Grow Your Online Business Strategically, and Improve Customer Retention.</p>
                     <!-- SOCIALS -->
                     <div class="socials">
                         <ul>
@@ -66,9 +66,13 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-h3,
+p,
 h4 {
     margin-left: 1rem;
+}
+
+p {
+    font-size: 1.4rem;
 }
 
 a {
