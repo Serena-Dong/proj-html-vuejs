@@ -74,10 +74,10 @@ a {
     color: black;
 
     &:hover {
-        color: $orange;
+        color: $ochre;
 
         padding: 2.5rem 0 2.5rem;
-        border-bottom: 2px solid $orange;
+        border-bottom: 2px solid $ochre;
     }
 }
 </style>
