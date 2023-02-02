@@ -22,7 +22,14 @@ const mainData = {
         ]
     },
     brands: {
-        img: ['']
+        img: [
+            'http://localhost:5173/src/assets/img/brands/abstract.png',
+            'http://localhost:5173/src/assets/img/brands/cglobal.png',
+            'http://localhost:5173/src/assets/img/brands/digitalbox.png',
+            'http://localhost:5173/src/assets/img/brands/hemisferio.png',
+            'http://localhost:5173/src/assets/img/brands/next.png',
+            'http://localhost:5173/src/assets/img/brands/spaces.png'
+        ]
     }
 }
 

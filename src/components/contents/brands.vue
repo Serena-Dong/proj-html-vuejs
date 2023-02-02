@@ -1,6 +1,13 @@
 <script>
+import { mainData } from '../../data/data'
+
 export default {
-    name: 'brands'
+    name: 'brands',
+    data() {
+        return {
+            mainData,
+        }
+    }
 }
 </script>
 
@@ -12,8 +19,11 @@ export default {
                 <p>Quisque aliquet, libero consequat elementum convallis</p>
             </div>
             <div class="brands">
-                <ul>
-                    <li></li>
+                <ul v-for="brand in mainData.brands.img">
+                    <li><a href="">
+                            <img :src="brand" alt="">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -38,6 +48,10 @@ export default {
 
     .text>* {
         margin-bottom: 1rem;
+    }
+
+    .brands {
+        display: flex;
     }
 }
 </style>
