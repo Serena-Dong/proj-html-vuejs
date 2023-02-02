@@ -16,8 +16,6 @@ export default {
 <template>
     <jumbotron></jumbotron>
     <card></card>
-    <card></card>
-    <card></card>
     <partnerships></partnerships>
 </template>
 
