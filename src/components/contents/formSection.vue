@@ -84,9 +84,4 @@ form>* {
     border-radius: 1rem;
     border: 1px solid $grey;
 }
-
-span {
-    color: $grey;
-    font-size: 0.7rem;
-}
 </style>
