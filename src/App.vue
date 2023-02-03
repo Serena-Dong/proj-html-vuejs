@@ -26,14 +26,17 @@ export default {
   <AppHeader></AppHeader>
   <AppMain @name-submit="fillData"></AppMain>
   <AppFooter></AppFooter>
-  <div class="support">
-    <i class="fa-solid fa-comments"></i>
-  </div>
+
+  <!--
+    <div class="support">
+      <i class="fa-solid fa-comments"></i>
+    </div>
+  -->
 </template>
 
 <style lang="scss" scoped>
 @use './assets/scss/partials/variables' as *;
-
+/* 
 .support {
   position: sticky;
   bottom: 0;
@@ -48,8 +51,9 @@ export default {
   padding: 1rem;
   margin-left: 2rem;
   border-radius: 5rem;
-
+  
   cursor: pointer;
-
+  
+  */
 }
 </style>
