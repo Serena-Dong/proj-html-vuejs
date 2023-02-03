@@ -15,20 +15,34 @@ export default {
 </script>
 
 <template>
+
+    <!-- RESOURCES -->
+
     <section>
         <div class="container">
             <div class="row">
+
+                <!-- TITLE -->
                 <div class="text-col">
                     <h1>Marketing Resources: Insider Advice on How to Increase Online Sales</h1>
                 </div>
+
+                <!-- BUTTON -->
                 <div class="btn-col">
                     <btn :text="text"></btn>
                 </div>
             </div>
+
+            <!-- RESOURCES POINTS -->
             <ul>
                 <li v-for="resource in mainData.resources">
-                    <img :src="resource.img" alt="">
+
+                    <!-- IMG -->
+                    <img class="hover-orange" :src="resource.img" alt="">
+
+                    <!-- TEXT -->
                     <p>{{ resource.text }}</p>
+
                 </li>
             </ul>
         </div>

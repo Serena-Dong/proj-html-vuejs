@@ -11,8 +11,13 @@ export default {
 </script>
 
 <template>
+
+    <!-- CONTACT CARD -->
+
     <section>
         <div class="container">
+
+            <!-- PROFILE -->
             <div class="profile">
                 <div id="profile-pic">
                     <img src="../../assets/img/contacts/marketing-expert-cta.png" alt="">
@@ -21,11 +26,14 @@ export default {
                     <p id="name">Sandy Reiff</p>
                     <p id="role">Marketing Consultat Expert</p>
                 </div>
-
             </div>
+
+            <!-- DETAIL -->
             <div class="detail">
                 <p>Drive Leads and Sales with Avada</p>
             </div>
+
+            <!-- BUTTON -->
             <button class="transparent"><a href=""><i class="fa-solid fa-phone"></i>{{
                 generalData.phoneNumber
             }}</a></button>

@@ -11,12 +11,19 @@ export default {
 </script>
 
 <template>
+
+    <!-- INTERN -->
+
     <section>
         <div class="container">
             <div class="row">
+
+                <!-- IMG  -->
                 <div class="img-col">
                     <img :src="mainData.intern.img" alt="">
                 </div>
+
+                <!-- TEXT -->
                 <div class="text-col">
                     <p>"{{ mainData.intern.text }}"</p>
                     <p>{{ mainData.intern.name }}</p>

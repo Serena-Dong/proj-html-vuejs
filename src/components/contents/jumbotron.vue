@@ -7,13 +7,20 @@ export default {
 </script>
 
 <template>
+
+    <!-- JUMBOTRON -->
+
     <div class="jumbotron">
         <div class="container">
             <div class="row">
+
+                <!-- INTRO TEXT -->
                 <div class="presentation">
                     <h1>Unlock Your Online Growth Potential</h1>
                     <p>Online marketing to secure customer retention, leads and sales. We focus on the bigger picture.
                     </p>
+
+                    <!-- BUTTON -->
                     <button class="white">
                         <a href="">
                             Our Services

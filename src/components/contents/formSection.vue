@@ -14,7 +14,12 @@ export default {
 </script>
 
 <template>
+
+    <!-- FORM -->
+
     <div class="form-box">
+
+        <!-- PROFILE -->
         <div class="profile">
             <div id="profile-pic">
                 <img src="../../assets/img/contacts/marketing-consultant-expert.jpg" alt="">
@@ -23,12 +28,16 @@ export default {
             <p id="role">Marketing Consultat Expert</p>
             <p id="phone-number"><i class="fa-solid fa-phone"></i>{{ generalData.phoneNumber }}</p>
         </div>
+
+        <!-- INPUTS -->
         <form action="submit">
             <input placeholder="Your Name*" type="text">
             <input placeholder="Your Email*" type="text">
             <input placeholder="Your Phone Number*" type="text">
             <btn :text="text"></btn>
         </form>
+
+        <!-- TEXT -->
         <span>By submitting my data I agree to be contacted</span>
     </div>
 </template>

@@ -9,9 +9,12 @@ export default {
 </script>
 
 <template>
+    <!-- OUTRO -->
     <section>
         <div class="container">
             <div class="row">
+
+                <!--OUTRO TEXT -->
                 <div class="text-col">
                     <h1>Let's Make Things Happen</h1>
                     <br>
@@ -29,6 +32,8 @@ export default {
                     <h4>George Anderson</h4>
                     <span>Digitalbox CEO</span>
                 </div>
+
+
                 <formSection></formSection>
             </div>
         </div>

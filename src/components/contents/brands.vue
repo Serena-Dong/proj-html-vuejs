@@ -13,6 +13,9 @@ export default {
 
 <template>
     <section>
+
+        <!-- BRANDS -->
+
         <div class="container">
             <div class="text">
                 <h1>Some Brands We Work With</h1>

@@ -14,12 +14,19 @@ export default {
 </script>
 
 <template>
+
+    <!-- CARD -->
+
     <section>
         <div class="container">
             <div class="row">
+
+                <!-- IMG -->
                 <div class="img-col">
                     <img src="../../assets/img/card/img1.svg" alt="">
                 </div>
+
+                <!-- TEXT -->
                 <div class="text-col">
                     <p>Business Growth</p>
                     <h1>Increase Brand Awareness</h1>
@@ -30,9 +37,12 @@ export default {
             </div>
         </div>
     </section>
+    <!-- CARD -->
     <section>
         <div class="container">
             <div class="row">
+
+                <!-- TEXT -->
                 <div class="text-col">
                     <p>Investors in People</p>
                     <h1>In-House Sales Training</h1>
@@ -40,18 +50,25 @@ export default {
                         Aliquid culpa consectetur esse cum molestiae fugiat reprehenderit atque dolores.</p>
                     <btn :text="text"></btn>
                 </div>
+
+                <!-- IMG -->
                 <div class="img-col">
                     <img src="../../assets/img/card/img2.svg" alt="">
                 </div>
             </div>
         </div>
     </section>
+    <!-- CARD -->
     <section>
         <div class="container">
             <div class="row">
+
+                <!-- IMG -->
                 <div class="img-col">
                     <img src="../../assets/img/card/img3.svg" alt="">
                 </div>
+
+                <!-- TEXT -->
                 <div class="text-col">
                     <p>Social Media Analysis</p>
                     <h1>Harness Your Social Proof</h1>

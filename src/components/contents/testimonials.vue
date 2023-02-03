@@ -15,16 +15,27 @@ export default {
 </script>
 
 <template>
+
+    <!-- TESTIMONIALS -->
+
     <section>
         <div class="container">
+
+            <!-- TITLE -->
             <div class="title">
                 <h1>Trusted By Leading Organisation</h1>
             </div>
             <div class="row">
+
+                <!-- TESTIMONIAL CARD -->
                 <div v-for="testimonial in mainData.testimonials" class="testimonial">
+
+                    <!-- IMG -->
                     <div class="profile-pic">
-                        <img :src="testimonial.img" alt="">
+                        <img class="hover-orange" :src="testimonial.img" alt="">
                     </div>
+
+                    <!-- TEXT -->
                     <div class="profile-text">
                         <p>{{ testimonial.text }}</p>
 
@@ -34,6 +45,7 @@ export default {
                     </div>
                 </div>
             </div>
+            <!-- BUTTON -->
             <div class="button">
                 <btn :text="text"></btn>
             </div>

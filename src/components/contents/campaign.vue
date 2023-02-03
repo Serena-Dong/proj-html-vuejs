@@ -15,6 +15,9 @@ export default {
 </script>
 
 <template>
+
+    <!-- CAMPAIGN  -->
+
     <section>
         <div class="container">
 

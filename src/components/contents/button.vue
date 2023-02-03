@@ -8,7 +8,10 @@ export default {
 </script>
 
 <template>
+
+    <!-- BUTTON -->
     <button class="ochre"><a href="">{{ text }}</a></button>
+
 </template>
 
 <style lang="scss" scoped>
