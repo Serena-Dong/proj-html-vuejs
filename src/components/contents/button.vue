@@ -10,7 +10,7 @@ export default {
 <template>
 
     <!-- BUTTON -->
-    <button class="ochre"><a href="">{{ text }}</a></button>
+    <button type="submit" class="ochre"><a href="">{{ text }}</a></button>
 
 </template>
 

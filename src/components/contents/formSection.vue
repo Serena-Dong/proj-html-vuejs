@@ -7,9 +7,16 @@ export default {
     data() {
         return {
             generalData,
-            text: 'Get a Callback'
+            text: 'Get a Callback',
+            customerName: '',
+            customerEmail: '',
+            customerPhone: ''
+
         }
-    }
+    },
+    emits: [
+        'form-submit', 'name-submit', 'email-submit', 'phone-submit'
+    ]
 }
 </script>
 
@@ -30,10 +37,11 @@ export default {
         </div>
 
         <!-- INPUTS -->
-        <form action="submit">
-            <input placeholder="Your Name*" type="text">
-            <input placeholder="Your Email*" type="text">
-            <input placeholder="Your Phone Number*" type="text">
+        <form @submit.prevent="$emit('form-submit')">
+            <input v-model.trim="customerName" @keyup="$emit('name-submit')" placeholder=" Your Name*" type="text">
+            <input v-model.trim="customerEmail" @keyup="$emit('email-submit')" placeholder="Your Email*" type="text">
+            <input v-model.trim="customerPhone" @keyup="$emit('phone-submit')" placeholder="Your Phone Number*"
+                type="text">
             <btn :text="text"></btn>
         </form>
 

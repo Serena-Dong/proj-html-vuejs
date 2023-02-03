@@ -22,14 +22,17 @@ export default {
         intern,
         resources,
         jumbotronB
-    }
+    },
+    emits: [
+        'form-submit', 'name-submit', 'email-submit', 'phone-submit'
+    ]
 
 }
 </script>
 
 <template>
     <main>
-        <jumbotron></jumbotron>
+        <jumbotron @name-submit="name - submit"></jumbotron>
         <card></card>
         <brands></brands>
         <contactCard></contactCard>
