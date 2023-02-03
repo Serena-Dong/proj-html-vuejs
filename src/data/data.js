@@ -65,7 +65,7 @@ const mainData = {
         },
         {
             img: 'http://localhost:5173/src/assets/img/campaign/campaign-3.png',
-            name: 'investment',
+            name: 'Investment',
             detail: 'Curabitur ac leo nunc vestibulum'
         }
     ],
