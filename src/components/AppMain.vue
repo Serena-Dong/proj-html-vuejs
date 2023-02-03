@@ -7,7 +7,7 @@ import testimonials from './contents/testimonials.vue'
 import campaign from './contents/campaign.vue'
 import intern from './contents/intern.vue'
 import resources from './contents/resources.vue'
-import jumbotronB from './contents/jumbotronB.vue'
+import outro from './contents/outro.vue'
 
 
 export default {
@@ -21,7 +21,7 @@ export default {
         campaign,
         intern,
         resources,
-        jumbotronB
+        outro
     },
     emits: [
         'form-submit', 'name-submit', 'email-submit', 'phone-submit'
@@ -40,7 +40,7 @@ export default {
         <campaign></campaign>
         <intern></intern>
         <resources></resources>
-        <jumbotronB></jumbotronB>
+        <outro></outro>
     </main>
 </template>
 

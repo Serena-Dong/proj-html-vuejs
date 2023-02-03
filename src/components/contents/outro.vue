@@ -1,7 +1,7 @@
 <script>
 import formSection from './formSection.vue'
 export default {
-    name: 'jumbotronB',
+    name: 'outro',
     components: {
         formSection
     }
