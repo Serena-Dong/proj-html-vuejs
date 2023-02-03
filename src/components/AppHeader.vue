@@ -84,11 +84,15 @@ export default {
     }
 }
 
-.contacts button a {
+.contacts button {
     color: $ochre;
 
-    &:hover {
+    a:hover {
         color: $white;
     }
+}
+
+.contacts button a {
+    color: $ochre;
 }
 </style>
