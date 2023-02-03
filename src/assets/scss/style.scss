@@ -63,9 +63,12 @@ button {
   &:hover {
     background-color: $ochre;
 
-    a {
+    a,
+    .fa-phone {
       color: $white;
 
     }
   }
+
+
 }
