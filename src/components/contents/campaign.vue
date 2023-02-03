@@ -17,6 +17,8 @@ export default {
 <template>
     <section>
         <div class="container">
+
+            <!-- INTRO CAMPAIGN -->
             <div class="row">
                 <div class="text-col">
                     <h1>We Boost Our Clients' Bottom Line by Optimizing Their Growth Potential.</h1>
@@ -28,7 +30,11 @@ export default {
                     <img src="../../assets/img/b-roll/we-boost-our-clients.jpg" alt="">
                 </div>
             </div>
+
+            <!-- MAIN CAMPAIGN -->
             <div class="row">
+
+                <!-- LEFT SIDE -->
                 <div class="text-col">
                     <div class="text">
                         <p class="bigger">We Build Relationship</p>
@@ -40,18 +46,22 @@ export default {
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem et id nihil?</p>
                     </div>
                 </div>
+
+                <!-- RIGHT SIDE -->
                 <div class="text-col">
                     <div v-for="point in mainData.campaign" class="main-point">
                         <div class="point-img">
                             <img :src="point.img" alt="">
                         </div>
                         <div class="point-details">
-                            <h3 id="point-name">{{ point.name }}</h3>
-                            <p id="point-detail">{{ point.detail }}</p>
+                            <p id="point-name">{{ point.name }}</p>
+                            <p>{{ point.detail }}</p>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- AWARDS -->
             <div class="awards">
                 <div class="title">
                     <h2>Awards</h2>
@@ -133,6 +143,10 @@ section {
 
     .point-img {
         margin-right: 1rem;
+    }
+
+    #point-name {
+        font-size: 1.5rem;
     }
 }
 
