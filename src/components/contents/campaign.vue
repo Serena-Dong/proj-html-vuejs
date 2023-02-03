@@ -41,31 +41,13 @@ export default {
                     </div>
                 </div>
                 <div class="text-col">
-                    <div class="main-point">
+                    <div v-for="point in mainData.campaign" class="main-point">
                         <div class="point-img">
-                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <img :src="point.img" alt="">
                         </div>
                         <div class="point-details">
-                            <h3 id="point-name">Accountability</h3>
-                            <p id="point-detail">Curabitur ac leo nunc vestibulum</p>
-                        </div>
-                    </div>
-                    <div class="main-point">
-                        <div class="point-img">
-                            <i class="fa-solid fa-folder"></i>
-                        </div>
-                        <div class="point-details">
-                            <h3 id="point-name">Trasparency</h3>
-                            <p id="point-detail">Curabitur ac leo nunc vestibulum</p>
-                        </div>
-                    </div>
-                    <div class="main-point">
-                        <div class="point-img">
-                            <i class="fa-solid fa-arrow-up-right-dots"></i>
-                        </div>
-                        <div class="point-details">
-                            <h3 id="point-name">Accountability</h3>
-                            <p id="point-detail">Curabitur ac leo nunc vestibulum</p>
+                            <h3 id="point-name">{{ point.name }}</h3>
+                            <p id="point-detail">{{ point.detail }}</p>
                         </div>
                     </div>
                 </div>
@@ -100,6 +82,7 @@ section {
     .row {
         display: flex;
         justify-content: space-around;
+        align-items: center;
         padding-top: 6rem;
 
         .img-col {
@@ -148,12 +131,7 @@ section {
     align-items: center;
     height: 100px;
 
-    .fa-solid {
-        color: $ochre;
-        padding: 1rem;
-        border: 2px solid $ochre;
-        border-radius: 1rem;
-
+    .point-img {
         margin-right: 1rem;
     }
 }
