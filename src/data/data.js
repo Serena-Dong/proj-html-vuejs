@@ -52,7 +52,23 @@ const mainData = {
         },
 
     ],
-
+    campaign: [
+        {
+            img: 'http://localhost:5173/src/assets/img/campaign/campaign-1.png',
+            name: 'Accountability',
+            detail: 'Curabitur ac leo nunc vestibulum'
+        },
+        {
+            img: 'http://localhost:5173/src/assets/img/campaign/campaign-2.png',
+            name: 'Trasparency',
+            detail: 'Curabitur ac leo nunc vestibulum'
+        },
+        {
+            img: 'http://localhost:5173/src/assets/img/campaign/campaign-3.png',
+            name: 'investment',
+            detail: 'Curabitur ac leo nunc vestibulum'
+        }
+    ],
     awards:
         [
             {
