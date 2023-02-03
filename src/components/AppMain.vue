@@ -13,7 +13,15 @@ import jumbotronB from './contents/jumbotronB.vue'
 export default {
     name: 'AppMain',
     components: {
-        jumbotron, card, brands, contactCard, testimonials, campaign, intern, resources, jumbotronB
+        jumbotron,
+        card,
+        brands,
+        contactCard,
+        testimonials,
+        campaign,
+        intern,
+        resources,
+        jumbotronB
     }
 
 }
