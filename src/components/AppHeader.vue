@@ -25,7 +25,9 @@ export default {
 
             <!-- LOGO -->
             <div class="logo">
-                <img :src=logoSrc alt="">
+                <a href="">
+                    <img :src=logoSrc alt="">
+                </a>
             </div>
 
             <!-- NAV -->
@@ -72,7 +74,7 @@ a {
     color: black;
 
     &:hover {
-        color: $white;
+        color: $ochre;
 
         padding: 2.5rem 0 2.5rem;
         border-bottom: 2px solid $ochre;
@@ -81,5 +83,9 @@ a {
 
 button a {
     color: $ochre;
+
+    &:hover {
+        color: $white;
+    }
 }
 </style>
